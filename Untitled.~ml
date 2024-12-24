@@ -461,24 +461,32 @@
 <XPD:REF name="BehavioralFeature">O7+zksC1NU6trLoaF4fKEQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
-<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="zOhuCVbWp0ySzBcX8lt/JgAA">
+<XPD:ATTR name="#Attributes" type="integer">7</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="BKJ+G6YLYEqQFvHEh08FygAA">
+<XPD:ATTR name="Name" type="string">BufferedImage image</XPD:ATTR>
+<XPD:REF name="Owner">izzkyGBPjkGTqZqUBGqgfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="zOhuCVbWp0ySzBcX8lt/JgAA">
 <XPD:ATTR name="Name" type="string">String name</XPD:ATTR>
 <XPD:REF name="Owner">izzkyGBPjkGTqZqUBGqgfgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="L3IrcOQY8ECCzjHaOSzD4AAA">
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="L3IrcOQY8ECCzjHaOSzD4AAA">
 <XPD:ATTR name="Name" type="string">boolean collision;</XPD:ATTR>
 <XPD:REF name="Owner">izzkyGBPjkGTqZqUBGqgfgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="4IKJAu06MUOFm2M16G7VpgAA">
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="4IKJAu06MUOFm2M16G7VpgAA">
 <XPD:ATTR name="Name" type="string">int worldX, worldY</XPD:ATTR>
 <XPD:REF name="Owner">izzkyGBPjkGTqZqUBGqgfgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="p4QulQtLiEi0Xe62Jb23VgAA">
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="MPGz13qeu0y9fJ/JVxoivgAA">
+<XPD:ATTR name="Name" type="string">Rectangle solidArea</XPD:ATTR>
+<XPD:REF name="Owner">izzkyGBPjkGTqZqUBGqgfgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="p4QulQtLiEi0Xe62Jb23VgAA">
 <XPD:ATTR name="Name" type="string">int solidAreaDefaultY</XPD:ATTR>
 <XPD:REF name="Owner">izzkyGBPjkGTqZqUBGqgfgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="TcnJwFNnUEKizK4t/1Mh7gAA">
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="TcnJwFNnUEKizK4t/1Mh7gAA">
 <XPD:ATTR name="Name" type="string">int solidAreaDefaultX</XPD:ATTR>
 <XPD:REF name="Owner">izzkyGBPjkGTqZqUBGqgfgAA</XPD:REF>
 </XPD:OBJ>
@@ -633,7 +641,7 @@
 <XPD:REF name="Views[3]">h/fm6x8B9EGU4PhWBvXCfAAA</XPD:REF>
 <XPD:ATTR name="#Generalizations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Generalizations[0]">oBCraHd93kqYJN4t7PurZgAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">6</XPD:ATTR>
+<XPD:ATTR name="#Attributes" type="integer">9</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="yfXOLCd5v0qDO9OImo75DwAA">
 <XPD:ATTR name="Name" type="string">int worldX, worldY</XPD:ATTR>
 <XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
@@ -642,19 +650,31 @@
 <XPD:ATTR name="Name" type="string">int speed</XPD:ATTR>
 <XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="QIIRR/7ms0+9w87TEJ92sQAA">
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="jC/JQHMVNUaVvDEeBekTDQAA">
+<XPD:ATTR name="Name" type="string">BufferedImage up1, up2, down1, down2, right1, right2, left1, left 2</XPD:ATTR>
+<XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="QIIRR/7ms0+9w87TEJ92sQAA">
 <XPD:ATTR name="Name" type="string">String direction</XPD:ATTR>
 <XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="/lHgoTqo+EuGKPeKHOnOBgAA">
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="/lHgoTqo+EuGKPeKHOnOBgAA">
 <XPD:ATTR name="Name" type="string">int spriteCounter</XPD:ATTR>
 <XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="b82sSHoQKUK3HYRSrme4zgAA">
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="b82sSHoQKUK3HYRSrme4zgAA">
 <XPD:ATTR name="Name" type="string">int spriteNum</XPD:ATTR>
 <XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="HElNxoYQs0mc5A5FpeLgHgAA">
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="jFTFCdHZjU6D3sVX+LdMJQAA">
+<XPD:ATTR name="Name" type="string">Rectangle solidArea</XPD:ATTR>
+<XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="J4A74jACXES7m3x2QvE/KwAA">
+<XPD:ATTR name="Name" type="string">int solidAreaDefaultX, solidAreaDefaultY</XPD:ATTR>
+<XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="HElNxoYQs0mc5A5FpeLgHgAA">
 <XPD:ATTR name="Name" type="string">boolean collisionOn</XPD:ATTR>
 <XPD:REF name="Owner">/KPNA86wski3WB298xixyQAA</XPD:REF>
 </XPD:OBJ>
